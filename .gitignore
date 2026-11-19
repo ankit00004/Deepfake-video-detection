@@ -1,0 +1,7 @@
+videos/
+faces/
+*.mp4
+*.avi
+*.mov
+*.pth
+__pycache__/

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h2>Prediction: {{ prediction }}</h2>
+    <h3>Uploaded Video:</h3>
+    <video width="480" controls>
+        <source src="{{ url_for('static', filename='uploads/' + filename) }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <br><br>
+    <a href="/">Upload Another Video</a>
+</body>
+</html>
